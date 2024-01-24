@@ -1,0 +1,39 @@
+@charset "utf-8";
+
+/*
+    Paletas de cores
+    azul: #266DD3
+    rosaEs: #C52184
+    rosaCL: #E574BC
+    roxo: #251F47
+*/
+
+:root{
+    --azul: #266DD3;
+    --rosaEs: #C52184;
+    --rosaCL: #E574BC;
+    --roxo: #251F47;
+}
+
+*{
+    padding: 0px;
+    margin: 0px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+header{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin: 20px;
+}
+
+input{
+        margin: 20px;
+}
+main{
+    padding: 10px;
+    border: 2px solid black;
+
+    width: 657px;
+    height: 700px;
+    text-align: center;
+}
