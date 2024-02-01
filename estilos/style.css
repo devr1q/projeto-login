@@ -41,20 +41,20 @@ section#login{
 
     background-color: var(--roxo);
     color: var(--rosaCL);
-    width: 280px;
-    height: 380px;
-    margin: 20px;
+    width: 250px;
+    height: 400px;
+    margin: 10px;
     border-radius: 20px;
     box-shadow: 8px 5px 2px #C52184;
 }
 div#formulario{
     display: block;
     padding: 10px;
-    line-height: 55px;
+    line-height: 40px;
     text-align: center;
 }
 input{
-    margin: 10px;
+    
 }
 
 .btn{
