@@ -35,14 +35,14 @@ main{
 }
 section#login{
     position: absolute;
-    top: 48%;
-    left: 48%;
+    top: 47%;
+    left: 47%;
     transform: translate(-50%, -50%);
 
     background-color: var(--roxo);
     color: var(--rosaCL);
     width: 280px;
-    height: 400px;
+    height: 380px;
     margin: 20px;
     border-radius: 20px;
     box-shadow: 8px 5px 2px #C52184;
