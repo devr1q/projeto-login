@@ -31,12 +31,12 @@ body, html{
 main{
     position: relative;
     width: 100vw;
-    height: 97vh;
+    height: 100vh;
 }
 section#login{
     position: absolute;
-    top: 50%;
-    left: 50%;
+    top: 48%;
+    left: 48%;
     transform: translate(-50%, -50%);
 
     background-color: var(--roxo);
