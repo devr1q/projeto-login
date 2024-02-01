@@ -25,14 +25,16 @@
 body, html{
     background-image: linear-gradient(to bottom, #251F47, #266DD3 50%);
     width: 100vw;
+    height: 100vh;
 }
-section{
-    margin: 20px;
-}
+
 main{
     position: relative;
     width: 100vw;
     height: 97vh;
+}
+section{
+    margin: 20px;
 }
 section#login{
     position: absolute;
