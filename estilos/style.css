@@ -21,19 +21,22 @@
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
-header{
+
+section{
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     margin: 20px;
 }
 
-input{
-        margin: 20px;
-}
+
 main{
     padding: 10px;
-    border: 2px solid black;
-
     width: 657px;
     height: 700px;
     text-align: center;
+}
+form{
+    
+}
+input{
+    margin: 20px;
 }
