@@ -44,14 +44,13 @@ section#login{
     background-color: var(--constraste);
     color: var(--rosaCL);
     width: 250px;
-    height: 380px;
+    height: 400px;
     
     border-radius: 20px;
     box-shadow: 8px 5px 2px var(--preto);
 }
 div#formulario{
     display: block;
-    padding: 10px;
     margin-top: 8px;
     line-height: 50px;
     text-align: center;
