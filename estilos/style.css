@@ -9,10 +9,11 @@
 */
 
 :root{
-    --azul: #266DD3;
-    --rosaEs: #C52184;
-    --rosaCL: #db64b0;
-    --roxo: #251F47;
+    --principal: #0496FF;
+    --secundaria: #027BCE;
+    --terceira: #4BB3FD;
+    --constraste: #A9FDAC;
+    --preto: #1A181B;
 }
 *{
     padding: 0px;
@@ -23,7 +24,8 @@
 
 
 body, html{
-    background-image: linear-gradient(to bottom, #251F47, #266DD3 50%);
+    background-image: linear-gradient(to bottom, var(--secundaria), var(--principal), var(--terceira));
+
     width: 100vw;
     height: 100vh;
 }
@@ -39,24 +41,42 @@ section#login{
     left: 50%;
     transform: translate(-50%, -50%);
 
-    background-color: var(--roxo);
+    background-color: var(--constraste);
     color: var(--rosaCL);
     width: 250px;
-    height: 400px;
+    height: 380px;
     
     border-radius: 20px;
-    box-shadow: 8px 5px 2px #C52184;
+    box-shadow: 8px 5px 2px var(--preto);
 }
 div#formulario{
     display: block;
     padding: 10px;
-    line-height: 40px;
+    margin-top: 5px;
+    line-height: 50px;
     text-align: center;
 }
-input{
-    
+div h1{
+    color: crimson;
 }
-
-.btn{
-    
+div p{
+    font-size: 0.9em;
+    font-weight: 600;
+    color: crimson;
+}
+form{
+    line-height: 50px;
+}
+label{
+    color: darkblue;
+}
+input{
+    cursor: pointer;
+}
+input.labels{
+    border-radius: 10px;
+}
+input.btn{
+    border-radius: 6px;
+    padding: 3px;
 }
