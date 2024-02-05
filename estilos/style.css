@@ -73,6 +73,7 @@ label{
 input{
     cursor: pointer;
     padding-left: 5px;
+    font-size: 12px;
 }
 input.labels{
     border-radius: 10px;

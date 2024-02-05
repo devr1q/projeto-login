@@ -14,11 +14,11 @@
                 <p>Seja bem-vindo(a) novamente.</p>
                 <form action="login.php" method="post">
                     <label for="inome">Nome:</label>
-                    <input type="text" name="inome" id="inome" class="labels" placeholder="Insira seu Nome"> <br>
+                    <input type="text" name="inome" id="inome" class="labels" placeholder="Insira seu Nome" required> <br>
                     <label for="iemail">E-mail:</label>
-                    <input type="email" name="iemail" id="iemail" class="labels" placeholder="Insira seu E-mail"><br>
+                    <input type="email" name="iemail" id="iemail" class="labels" placeholder="Insira seu E-mail" minlength="11" required><br>
                     <label for="isenha">Senha:</label>
-                    <input type="password" name="isenha" id="isenha" class="labels" placeholder="Mínimo 8 caracteres"><br>
+                    <input type="password" name="isenha" id="isenha" class="labels" placeholder="Mínimo 8 caracteres" minlength="8" required><br>
                     <input type="submit" value="Enviar" class="btn">
                     <input type="reset" value="Limpar" class="btn">
                 </form>
