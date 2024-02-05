@@ -10,7 +10,7 @@
 
 :root{
     --principal: #0496FF;
-    --secundaria: #027BCE;
+    --secundaria: #027bce;
     --terceira: #4BB3FD;
     --constraste: #A9FDAC;
     --preto: #1A181B;
@@ -24,7 +24,7 @@
 
 
 body, html{
-    background-image: linear-gradient(to bottom, var(--secundaria), var(--principal), var(--terceira));
+    background-image: linear-gradient(to bottom, rgb(48, 48, 255), var(--principal), var(--terceira));
 
     width: 100vw;
     height: 100vh;
@@ -56,7 +56,7 @@ div#formulario{
     text-align: center;
 }
 div h1{
-    font-size: 1.8em;
+    font-size: 1.7em;
     color: crimson;
 }
 div p{
@@ -72,6 +72,7 @@ label{
 }
 input{
     cursor: pointer;
+    padding-left: 5px;
 }
 input.labels{
     border-radius: 10px;
@@ -79,4 +80,12 @@ input.labels{
 input.btn{
     border-radius: 6px;
     padding: 3px;
+}
+div p#final{
+    margin-top: 10px;
+    font-size: 0.9em;
+    cursor: pointer;
+}
+p#final:hover{
+    text-decoration: underline;
 }
