@@ -80,8 +80,10 @@ input.labels{
     border-radius: 10px;
 }
 input.btn{
-    border-radius: 6px;
+    width: 120px;
+    border-radius: 30px;
     padding: 3px;
+    font-size: 15px;
 }
 div p#final{
     color: #95BF74;
