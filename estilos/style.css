@@ -148,7 +148,12 @@ div p{
 }
 
 
-
+@media screen and (min-width: 600px) {
+    body{
+        background: url(../img/wllpp-telaDt2.jpg) no-repeat;
+        background-size: cover;
+    }
+}
 
 
 
