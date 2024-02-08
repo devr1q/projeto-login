@@ -140,7 +140,7 @@ div p#leve{
     margin: 5px;
 }
 .register-link p {
-    color: rgba(30, 30, 30);
+    color: rgb(255, 255, 255, .7);
     font-weight: 600;
     font-size: 12px;
 }
