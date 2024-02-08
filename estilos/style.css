@@ -56,7 +56,7 @@ div h1{
     font-size: 30px;
     color: rgb(255, 255, 255);
 }
-div p{
+div p#leve{
     text-align: center;
     font-size: 0.8em;
     font-weight: bold;
@@ -107,8 +107,9 @@ div p{
     justify-content: space-between;
     font-size: 14px;
     margin: -7px 0;
+    color: rgba(255, 255, 255, 0.7);
 }
-.remember-forgot label input{
+.remember-forgot label{
     accent-color: #fff;
     margin-right: 5px;
 }
@@ -138,20 +139,57 @@ div p{
     text-align: center;
     margin: 5px;
 }
-.register-link p a{
+.register-link p {
+    color: rgba(30, 30, 30);
+    font-weight: 600;
+    font-size: 12px;
+}
+.register-link a{
     padding-left: 5px;
+    font-weight: 600;
+    font-size: 14px;
     color: #ffffffcc;
     text-decoration: none;
 }
-.register-link p a:hover{
+.register-link a:hover{
     text-decoration: underline;
 }
 
 
-@media screen and (min-width: 600px) {
+@media screen and (min-width: 768px) and (max-width: 992px) {
     body{
         background: url(../img/wllpp-telaDt2.jpg) no-repeat;
         background-size: cover;
+    }
+    div h1{
+        text-align: center;
+        font-size: 30px;
+        color: rgb(255, 255, 255);
+    }
+    div p#leve{
+        color: rgb(255, 255, 255, .7);
+    }
+    .register-link p{
+        text-align: center;
+        font-size: 0.8em;
+        font-weight: 600;
+        color: rgb(255, 255, 255, .7);
+    }
+}
+
+
+
+@media screen and (min-width: 992px) {
+    body{
+        background: url(../img/wllpp-telaDt2.jpg) no-repeat;
+        background-size: cover;
+        background-position: center bottom;
+    }
+    .register-link p{
+        text-align: center;
+        font-size: 0.8em;
+        font-weight: 600;
+        color: rgb(255, 255, 255, .7);
     }
 }
 
